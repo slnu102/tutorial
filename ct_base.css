@@ -195,6 +195,7 @@ button, input {
 }
 button, input[type="button"], input[type="reset"], input[type="submit"] {
 	cursor: pointer;
+	appearance: button;
 	-webkit-appearance: button;
 }
 button[disabled], input[disabled] {
@@ -205,6 +206,7 @@ input[type="checkbox"], input[type="radio"] {
 	padding: 0;
 }
 input[type="search"] {
+	appearance: button;
 	-webkit-appearance: textfield;
 	-moz-box-sizing: content-box;
 	-webkit-box-sizing: content-box;
@@ -221,6 +223,12 @@ textarea {
 	overflow: auto;
 	vertical-align: top;
 	resize: vertical;
+}
+#photo1{
+	border-radius:9px;
+	border: 3px green solid;
+	box-shadow: 2px 2px 8px #000;
+	
 }
 
 
